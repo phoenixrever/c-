@@ -59,7 +59,11 @@ int main(int args,char *argv[]) {
     //真正的定义在main函数下面
     cout<<"globle="<<globle<<endl; //10
 
+    char s='a';
+    cin>>s;
+    cout<<"s:"<<s<< endl;
 
+    system("pause");
     //0 代表成功
     return 0;
 }
