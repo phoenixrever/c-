@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <bitset>
 
 using namespace std;
@@ -49,10 +49,10 @@ int main(int args,char *argv[]) {
     //总结： 变量的意义就是为内存空间起名，方便操作这段内存
 
     //区分大小写
-    int Data;
+    int Data=0;
 
     //局部变量 根据不同的ide   基础变量初始化值各不相同 idea 默认给0
-    int a;
+    int a = 0;
     cout<<"a="<<a<<endl;
 
     //全部变量基本都是0 在内存中存储的区域不同
