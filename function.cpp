@@ -4,7 +4,6 @@ using namespace std;
 
 //函数重载注意事项
 //1、引用作为重载条件
-
 void func(int& a)
 {
     cout << "func (int &a) 调用 " << endl;
@@ -17,7 +16,6 @@ void func(const int& a)
 
 
 //2、函数重载碰到函数默认参数
-
 void func2(int a, int b = 10)
 {
     cout << "func2(int a, int b = 10) 调用" << endl;
